@@ -7,7 +7,7 @@ CATMAID is an interface designed for navigating and annotating high resolution i
 -	Connectors, placed on the T-bar
 -	Presynaptic neuron, indicating the neuron from which the synapse originates
 -	Postsynaptic partners, annotated on the slice of the postsynaptic neuron where the PSD appears most prominent.
--	
+
 Using pymaid (a Python-CATMAID interface), this data curation pipeline enables the retrieval of specific pre- and postsynaptic partners without the need for involved neurons to be skeletonized. It also provides precise coordinates of these partners within the EM volume alongside the connectors. This allows the model to explicitly capture features of both presynaptic and postsynaptic neurons, even when each annotation of is situated at different location in 3D space. Then, connectors and their corresponding partners are encapsulated in a bounding box to proceed for data training. 
 
 
