@@ -37,7 +37,7 @@ After defining the bounding box dimensions, a 3D plot and `df` examines points w
   -	A subset of data, `inside_box`, is created for points meeting all three conditions: connector, pre-, and post-coordinates fall inside the bounding box.
   -	Data not satisfying these conditions is excluded and categorized into separate lists: `pre_outside_box` and `post_outside_box`, which capture points where only pre- or post-coordinates fall outside the bounding box.
 
-The bounding box dimensions can be dynamically expanded or contracted to include or exclude specific synapses, ensuring optimal representation of the dataset for training.
+This check allows bounding box dimension to be dynamically expanded or contracted to include or exclude specific synapses, enabling optimal representation of the dataset for training.
 
 Finally, the processed data is visualized:
   -	A 3D scatter plot displays points inside and outside the bounding box after adjustments.
