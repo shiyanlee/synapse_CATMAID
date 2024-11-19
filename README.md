@@ -1,4 +1,4 @@
-### 🚩**What was the problem?**
+### 🚩**What was the problem and why is it important**
 Ground truth annotations of neuronal structures are not only valuable for connectome reconstruction but also critical for training machine learning models in neuron segmentations. However, this is greatly distinctive in the context of synapse detection. Segmenting a neuron is challenging due to its complex trajectory across the tissue layers, while identifying a synapse is complicated by the variable cues at the presynaptic and postsynaptic site required for accurate classification.
 In high-resolution EM images of the Drosophila brain, synapses are identified by darkly stained active zone proteins known as the T bar, alongside the postsynaptic density (PSD) complex which often appears as a ‘teeth-like’ structure. One of the challenges in developing synapse detection model is to distinguish synapses from other electron-dense organelles and artefacts. Additionally, the extremely thin slices captured with FIB-SEM implicates that the presynaptic and postsynaptic features may be captured at slightly different planes and distances, with variability across synapses. This inconsistency introduces unique perspectives on the synaptic structure, highlighting the inherent 3D complexity that complicates automated detection. 
 
@@ -29,5 +29,13 @@ In this case, the connectors are distributed irregularly and non-uniformly. To a
 
 This pipeline enables users to tailor bounding box dimensions selectively, offering flexibility to refine and trim the dataset. Users can adjust dimensions to focus on areas of interest and verify whether all critical elements (connectors, pre-synaptic neurons, and post-synaptic neurons) are contained within the defined bounding boxes.  
 
+### **3D visualization of the bounding box and their respective synapse**
+After defining the bounding box dimensions, the pipeline examines points within the bounding box to ensure all relevant neuron data—connectors, pre-, and postsynaptic coordinates—are included in the analysis.
+•	A subset of data, inside_box, is created for points meeting all three conditions: connector, pre-, and post-coordinates fall inside the bounding box.
+•	Data not satisfying these conditions is excluded and categorized into separate lists: pre_outside_box and post_outside_box, which capture points where only pre- or post-coordinates fall outside the bounding box.
+The bounding box dimensions can be dynamically expanded or contracted to include or exclude specific synapses, ensuring optimal representation of the dataset for training.
+Finally, the processed data is visualized:
+•	A 3D scatter plot displays points inside and outside the bounding box after adjustments.
+•	A wireframe representation of the bounding box is included as a reference for spatial context.
 
 
