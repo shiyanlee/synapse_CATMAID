@@ -18,9 +18,7 @@ In this pipeline, synapses are only considered for training if **all connectors*
 This scenario involves a straightforward approach. The smallest and largest **x**, **y**, and **z** coordinates across all connectors, pre-synaptic neurons, and post-synaptic neurons are identified. These bounds ensure that no annotations fall outside the bounding box, encompassing all relevant data within a single, well-defined cube.  
 
 2. **Synapses Traced in a Single Kenyon Cell:**  
-In this case, the connectors are distributed irregularly and non-uniformly. To address this complexity:  
-- **DBSCAN Clustering** was applied to group points based on proximity, limiting the spatial spread and forming multiple smaller clusters.  
-- For each cluster, compact bounding boxes were created using the cluster points.  
+In this case, the connectors are distributed irregularly and non-uniformly. To address this complexity, **DBSCAN Clustering** was applied to group points based on proximity, limiting the spatial spread and forming multiple smaller clusters. For each cluster, compact bounding boxes were created using the cluster points.  
 
 #### **Challenges and Solutions:**  
 - To account for the spread of elements in the synapse, the bounding boxes are stretched, which expands the dataset and introduces empty spaces to ensure that all relevant components—connectors, pre-, and post-synaptic neurons—are fully encapsulated.
