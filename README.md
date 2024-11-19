@@ -1,8 +1,8 @@
-🚩**What was the problem?**
+### 🚩**What was the problem?**
 Ground truth annotations of neuronal structures are not only valuable for connectome reconstruction but also critical for training machine learning models in neuron segmentations. However, this is greatly distinctive in the context of synapse detection. Segmenting a neuron is challenging due to its complex trajectory across the tissue layers, while identifying a synapse is complicated by the variable cues at the presynaptic and postsynaptic site required for accurate classification.
 In high-resolution EM images of the Drosophila brain, synapses are identified by darkly stained active zone proteins known as the T bar, alongside the postsynaptic density (PSD) complex which often appears as a ‘teeth-like’ structure. One of the challenges in developing synapse detection model is to distinguish synapses from other electron-dense organelles and artefacts. Additionally, the extremely thin slices captured with FIB-SEM implicates that the presynaptic and postsynaptic features may be captured at slightly different planes and distances, with variability across synapses. This inconsistency introduces unique perspectives on the synaptic structure, highlighting the inherent 3D complexity that complicates automated detection. 
 
-⚔️**Our approach and how it can be overcome.** 
+### ⚔️**Our approach and how it can be overcome.** 
 CATMAID is an interface designed for navigating and annotating high resolution image stacks, providing a tool to create skeletonization of neurons and its respective synapses. Manually annotated synapses on CATMAID creates three types of annotations which is helpful for model training: 
 -	Connectors, placed on the T-bar
 -	Presynaptic neuron, indicating the neuron from which the synapse originates
@@ -23,14 +23,11 @@ In this pipeline, synapses are only considered for training if **all connectors*
    - For each cluster, compact bounding boxes were created using the cluster points.  
 
    **Challenges and Solutions:**  
-To account for the spread of elements in the synapse, the bounding boxes are stretched, which expands the dataset and introduces empty spaces to ensure that all relevant components—connectors, pre-, and post-synaptic neurons—are fully encapsulated.
+- To account for the spread of elements in the synapse, the bounding boxes are stretched, which expands the dataset and introduces empty spaces to ensure that all relevant components—connectors, pre-, and post-synaptic neurons—are fully encapsulated.
  - The strong irregularity and small dataset made the application of shrinkage factors for bounding boxes suboptimal. Shrinkage factors apply uniform reductions to all axes, which was too rigid for this dataset.  
    - To overcome, bounding dimensions were manually defined to allow greater flexibility, focusing on regions with the strongest density.  
 #### **Flexibility in Bounding Box Design:**  
 This pipeline enables users to tailor bounding box dimensions selectively, offering flexibility to refine and trim the dataset. Users can adjust dimensions to focus on areas of interest and verify whether all critical elements (connectors, pre-synaptic neurons, and post-synaptic neurons) are contained within the defined bounding boxes.  
-
----
-![image](https://github.com/user-attachments/assets/b9ce27f5-bfa0-487a-8ece-72e5ed5f0cc1)
 
 
 
