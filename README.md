@@ -30,12 +30,12 @@ In this case, the connectors are distributed irregularly and non-uniformly. To a
 This pipeline enables users to tailor bounding box dimensions selectively, offering flexibility to refine and trim the dataset. Users can adjust dimensions to focus on areas of interest and verify whether all critical elements (connectors, pre-synaptic neurons, and post-synaptic neurons) are contained within the defined bounding boxes.  
 
 ### **3D visualization of the bounding box and their respective synapse**
-After defining the bounding box dimensions, the pipeline examines points within the bounding box to ensure all relevant neuron data—connectors, pre-, and postsynaptic coordinates—are included in the analysis.
-•	A subset of data, inside_box, is created for points meeting all three conditions: connector, pre-, and post-coordinates fall inside the bounding box.
-•	Data not satisfying these conditions is excluded and categorized into separate lists: pre_outside_box and post_outside_box, which capture points where only pre- or post-coordinates fall outside the bounding box.
+After defining the bounding box dimensions, a 3D plot and `df` examines points within the bounding box to ensure all relevant neuron data—connectors, pre-, and postsynaptic coordinates—are included in the analysis.
+  -	A subset of data, `inside_box`, is created for points meeting all three conditions: connector, pre-, and post-coordinates fall inside the bounding box.
+  -	Data not satisfying these conditions is excluded and categorized into separate lists: `pre_outside_box` and `post_outside_box`, which capture points where only pre- or post-coordinates fall outside the bounding box.
 The bounding box dimensions can be dynamically expanded or contracted to include or exclude specific synapses, ensuring optimal representation of the dataset for training.
 Finally, the processed data is visualized:
-•	A 3D scatter plot displays points inside and outside the bounding box after adjustments.
-•	A wireframe representation of the bounding box is included as a reference for spatial context.
-
+  -	A 3D scatter plot displays points inside and outside the bounding box after adjustments.
+  -	A wireframe representation of the bounding box is included as a reference for spatial context.
+  
 
