@@ -22,7 +22,7 @@ In this case, the connectors are distributed irregularly and non-uniformly. To a
 - **DBSCAN Clustering** was applied to group points based on proximity, limiting the spatial spread and forming multiple smaller clusters.  
 - For each cluster, compact bounding boxes were created using the cluster points.  
 
-**Challenges and Solutions:**  
+#### **Challenges and Solutions:**  
 - To account for the spread of elements in the synapse, the bounding boxes are stretched, which expands the dataset and introduces empty spaces to ensure that all relevant components—connectors, pre-, and post-synaptic neurons—are fully encapsulated.
 - The strong irregularity and small dataset made the application of shrinkage factors for bounding boxes suboptimal. Shrinkage factors apply uniform reductions to all axes, which was too rigid for this dataset.  
 - To overcome, bounding dimensions were manually defined to allow greater flexibility, focusing on regions with the strongest density.  
