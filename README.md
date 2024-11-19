@@ -13,7 +13,7 @@ Using pymaid (a Python-CATMAID interface), this data curation pipeline enables t
 ### **📦 The Bounding Boxes**  
 
 In this pipeline, synapses are only considered for training if **all connectors**, **pre-synaptic neurons**, and **post-synaptic neurons** are fully contained within a bounding box. 
-**Two Case Examples of Bounding Box Creation:**  
+#### **Two Case Examples of Bounding Box Creation:**  
 1. **Synapses Traced in a Designated Cube:**  
 This scenario involves a straightforward approach. The smallest and largest **x**, **y**, and **z** coordinates across all connectors, pre-synaptic neurons, and post-synaptic neurons are identified. These bounds ensure that no annotations fall outside the bounding box, encompassing all relevant data within a single, well-defined cube.  
 
