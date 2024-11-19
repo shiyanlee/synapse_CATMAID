@@ -15,17 +15,17 @@ Using pymaid (a Python-CATMAID interface), this data curation pipeline enables t
 In this pipeline, synapses are only considered for training if **all connectors**, **pre-synaptic neurons**, and **post-synaptic neurons** are fully contained within a bounding box. 
 #### **Two Case Examples of Bounding Box Creation:**  
 1. **Synapses Traced in a Designated Cube:**  
-   This scenario involves a straightforward approach. The smallest and largest **x**, **y**, and **z** coordinates across all connectors, pre-synaptic neurons, and post-synaptic neurons are identified. These bounds ensure that no annotations fall outside the bounding box, encompassing all relevant data within a single, well-defined cube.  
+This scenario involves a straightforward approach. The smallest and largest **x**, **y**, and **z** coordinates across all connectors, pre-synaptic neurons, and post-synaptic neurons are identified. These bounds ensure that no annotations fall outside the bounding box, encompassing all relevant data within a single, well-defined cube.  
 
 2. **Synapses Traced in a Single Kenyon Cell:**  
-   In this case, the connectors are distributed irregularly and non-uniformly. To address this complexity:  
-   - **DBSCAN Clustering** was applied to group points based on proximity, limiting the spatial spread and forming multiple smaller clusters.  
-   - For each cluster, compact bounding boxes were created using the cluster points.  
+In this case, the connectors are distributed irregularly and non-uniformly. To address this complexity:  
+- **DBSCAN Clustering** was applied to group points based on proximity, limiting the spatial spread and forming multiple smaller clusters.  
+- For each cluster, compact bounding boxes were created using the cluster points.  
 
    **Challenges and Solutions:**  
 - To account for the spread of elements in the synapse, the bounding boxes are stretched, which expands the dataset and introduces empty spaces to ensure that all relevant components—connectors, pre-, and post-synaptic neurons—are fully encapsulated.
- - The strong irregularity and small dataset made the application of shrinkage factors for bounding boxes suboptimal. Shrinkage factors apply uniform reductions to all axes, which was too rigid for this dataset.  
-   - To overcome, bounding dimensions were manually defined to allow greater flexibility, focusing on regions with the strongest density.  
+- The strong irregularity and small dataset made the application of shrinkage factors for bounding boxes suboptimal. Shrinkage factors apply uniform reductions to all axes, which was too rigid for this dataset.  
+- To overcome, bounding dimensions were manually defined to allow greater flexibility, focusing on regions with the strongest density.  
 #### **Flexibility in Bounding Box Design:**  
 This pipeline enables users to tailor bounding box dimensions selectively, offering flexibility to refine and trim the dataset. Users can adjust dimensions to focus on areas of interest and verify whether all critical elements (connectors, pre-synaptic neurons, and post-synaptic neurons) are contained within the defined bounding boxes.  
 
