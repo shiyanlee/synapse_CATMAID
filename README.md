@@ -1,6 +1,6 @@
 ### Purpose
 -	This pipeline identifies precise locations of synapse features: T-bar, presynaptic neuron, and postsynaptic neuron coordinates, without requiring the relevant neurons to be skeletonized in CATMAID.
--	It integrates steps of clustering and data validation to evaluate connectors (T-bars) and ensuring their corresponding partners are accurately represented within a bounding box.
+-	It integrates steps of data validation when clustering to ensure connectors (T-bars) and their corresponding partners are accurately represented within a bounding box.
 -	With customizable options to handle irregular dataset distributions, the pipeline prepares compact bounding box datasets that optimized training efficiency while minimising computational overhead.
 
 ### 🚩**What was the problem and why is it important**
