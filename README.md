@@ -1,7 +1,7 @@
 ### Purpose
 -	With pymaid, this pipeline identifies precise locations of synapse features: T-bar, presynaptic neuron, and postsynaptic neuron coordinates, without requiring the relevant neurons to be skeletonized in CATMAID.
 -	It integrates steps of data validation when clustering to ensure connectors (T-bars) and their corresponding partners are accurately represented within a bounding box.
--	With customizable options to handle irregular dataset distributions, the pipeline prepares compact bounding box datasets that optimized training efficiency while minimising computational overhead.
+-	With customizable options to handle irregular dataset distributions, the pipeline prepares compact bounding box datasets to optimise training efficiency while minimising computational overhead.
 
 ### 🚩**What was the problem and why is it important**
 Ground truth annotations of neuronal structures are not only valuable for connectome reconstruction but also critical for training machine learning models in neuron segmentations. However, this is greatly distinctive in the context of synapse detection. Segmenting a neuron is challenging due to its complex trajectory across the tissue layers, while identifying a synapse is complicated by the variable cues at the presynaptic and postsynaptic site required for accurate classification.
