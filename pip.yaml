@@ -1,0 +1,15 @@
+name: jupyterlab
+channels:
+  - defaults
+dependencies:
+  - pip
+  - bokeh
+  - holoviews
+  - hvplot
+  - neuprint-python
+  - ipywidgets
+  - nodejs
+  - scikit-learn
+  - gevent
+  - python=3.11
+prefix: /Users/cardonagroup/miniconda3/envs/jupyterlab
