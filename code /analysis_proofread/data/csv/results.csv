@@ -1,0 +1,288 @@
+skeleton_id,acs,ad,mc,mr,sh,syl,annotations_per_neuron,confidence_level,closest_assumption
+annotations_per_user,153,94,49,107,59,33,,not enough data,
+608126,correct,uncertain,uncertain,uncertain,uncertain,uncertain,6.0,0.5833333333333334,ad
+608131,correct,correct,correct,correct,uncertain,correct,6.0,0.9166666666666666,acs
+608135,incorrect,incorrect,incorrect,incorrect,incorrect,incorrect,6.0,0.0,acs
+608139,incorrect,incorrect,incorrect,uncertain,uncertain,uncertain,6.0,0.25,acs
+608143,incorrect,incorrect,incorrect,incorrect,incorrect,incorrect,6.0,0.0,acs
+608147,uncertain,incorrect,incorrect,uncertain,uncertain,uncertain,6.0,0.3333333333333333,acs
+608151,incorrect,incorrect,incorrect,incorrect,incorrect,uncertain,6.0,0.08333333333333333,acs
+608155,uncertain,correct,correct,incorrect,correct,correct,6.0,0.75,acs
+608159,incorrect,correct,correct,uncertain,uncertain,correct,6.0,0.6666666666666666,mr
+608163,uncertain,correct,correct,correct,incorrect,correct,6.0,0.75,acs
+608171,incorrect,incorrect,incorrect,incorrect,incorrect,uncertain,6.0,0.08333333333333333,acs
+608176,incorrect,incorrect,incorrect,incorrect,incorrect,uncertain,6.0,0.08333333333333333,acs
+608180,incorrect,uncertain,incorrect,uncertain,incorrect,uncertain,6.0,0.25,acs
+608184,incorrect,incorrect,,incorrect,uncertain,uncertain,5.0,0.2,acs
+608188,incorrect,correct,incorrect,uncertain,uncertain,uncertain,6.0,0.4166666666666667,mr
+608192,correct,correct,,correct,correct,correct,5.0,1.0,acs
+608196,correct,uncertain,correct,incorrect,correct,correct,6.0,0.75,acs
+608200,incorrect,incorrect,incorrect,uncertain,uncertain,uncertain,6.0,0.25,acs
+608257,correct,incorrect,correct,,correct,correct,5.0,0.8,acs
+608261,correct,incorrect,correct,,correct,correct,5.0,0.8,acs
+608265,uncertain,incorrect,incorrect,,correct,uncertain,5.0,0.4,acs
+608269,correct,incorrect,correct,,uncertain,,4.0,0.625,sh
+608273,correct,incorrect,correct,,correct,,4.0,0.75,acs
+608277,correct,incorrect,correct,,correct,,4.0,0.75,acs
+608281,uncertain,uncertain,incorrect,,correct,,4.0,0.5,acs
+608285,uncertain,uncertain,correct,uncertain,uncertain,,5.0,0.6,acs
+608289,incorrect,correct,correct,uncertain,correct,,5.0,0.7,mr
+608293,incorrect,incorrect,correct,uncertain,correct,,5.0,0.5,mr
+608297,uncertain,incorrect,incorrect,correct,correct,,5.0,0.5,acs
+608301,incorrect,incorrect,incorrect,uncertain,correct,,5.0,0.3,mr
+608305,incorrect,uncertain,incorrect,correct,correct,,5.0,0.5,ad
+608309,incorrect,incorrect,incorrect,incorrect,incorrect,,5.0,0.0,acs
+608313,incorrect,incorrect,incorrect,,uncertain,,4.0,0.125,acs
+608317,correct,correct,correct,,correct,,4.0,1.0,acs
+608321,incorrect,uncertain,incorrect,,uncertain,,4.0,0.25,acs
+608325,correct,correct,correct,,uncertain,,4.0,0.875,acs
+608329,correct,incorrect,correct,incorrect,correct,,5.0,0.6,acs
+608333,uncertain,incorrect,incorrect,uncertain,uncertain,,5.0,0.3,acs
+608337,correct,uncertain,,,correct,,3.0,0.8333333333333334,acs
+608341,correct,correct,,uncertain,uncertain,,4.0,0.75,acs
+608345,correct,correct,,,correct,,3.0,1.0,acs
+608349,correct,incorrect,,incorrect,incorrect,,4.0,0.25,ad
+608353,correct,correct,,,correct,,3.0,1.0,acs
+608357,correct,uncertain,,,correct,,3.0,0.8333333333333334,acs
+608361,correct,correct,,,correct,,3.0,1.0,acs
+608365,incorrect,correct,,,uncertain,,3.0,0.5,sh
+608369,correct,incorrect,,,incorrect,,3.0,0.3333333333333333,ad
+608373,incorrect,uncertain,,,,,2.0,0.25,acs
+608377,uncertain,uncertain,,,,,2.0,0.5,acs
+608381,correct,correct,,,,,2.0,1.0,acs
+608385,correct,correct,,,,,2.0,1.0,acs
+608389,incorrect,incorrect,,,,,2.0,0.0,acs
+608393,incorrect,incorrect,,,,,2.0,0.0,acs
+608397,incorrect,incorrect,,,,,2.0,0.0,acs
+608401,correct,correct,,,,,2.0,1.0,acs
+608405,correct,correct,,,,,2.0,1.0,acs
+608409,correct,correct,,,,,2.0,1.0,acs
+608413,incorrect,uncertain,,,,,2.0,0.25,acs
+608417,correct,uncertain,,,,,2.0,0.75,acs
+608421,uncertain,incorrect,,,,,2.0,0.25,acs
+608425,correct,incorrect,,,,,2.0,0.5,acs
+608429,incorrect,incorrect,,,,,2.0,0.0,acs
+608433,uncertain,incorrect,,,,,2.0,0.25,acs
+608437,correct,incorrect,,,,,2.0,0.5,acs
+608441,correct,uncertain,,,,,2.0,0.75,acs
+608445,correct,uncertain,,uncertain,,,3.0,0.6666666666666666,ad
+608449,uncertain,uncertain,,,,,2.0,0.5,acs
+608453,correct,correct,correct,,,,3.0,1.0,acs
+608457,incorrect,incorrect,,uncertain,,,3.0,0.16666666666666666,acs
+608461,correct,uncertain,,correct,,,3.0,0.8333333333333334,acs
+608465,correct,correct,,correct,,,3.0,1.0,acs
+608469,correct,incorrect,,uncertain,,,3.0,0.5,mr
+608473,incorrect,incorrect,,,,,2.0,0.0,acs
+608477,correct,uncertain,,,,,2.0,0.75,acs
+608481,incorrect,uncertain,,,,,2.0,0.25,acs
+608485,correct,correct,,,,,2.0,1.0,acs
+608489,uncertain,incorrect,,,,,2.0,0.25,acs
+608493,incorrect,incorrect,,,,,2.0,0.0,acs
+608497,incorrect,correct,,,,,2.0,0.5,acs
+608501,correct,correct,,,,,2.0,1.0,acs
+608505,incorrect,correct,,,,,2.0,0.5,acs
+608509,correct,correct,,,,,2.0,1.0,acs
+608513,correct,,,,,,1.0,not enough data,
+608517,uncertain,,,,,,1.0,not enough data,
+608521,incorrect,,,,,,1.0,not enough data,
+608525,correct,,,,,,1.0,not enough data,
+608529,incorrect,,,incorrect,,,2.0,0.0,acs
+608533,correct,,,,,,1.0,not enough data,
+608537,uncertain,,,correct,,,2.0,0.75,acs
+608541,incorrect,,,incorrect,,,2.0,0.0,acs
+608545,correct,,,,,,1.0,not enough data,
+608549,uncertain,,,incorrect,,,2.0,0.25,acs
+608553,correct,,,,,,1.0,not enough data,
+608557,correct,,,,,,1.0,not enough data,
+608561,correct,,,correct,,,2.0,1.0,acs
+608565,correct,,,,,,1.0,not enough data,
+608569,incorrect,,,,,,1.0,not enough data,
+608573,incorrect,,,,,,1.0,not enough data,
+608577,correct,,,,,,1.0,not enough data,
+608581,correct,,,,,,1.0,not enough data,
+608585,incorrect,,,,,,1.0,not enough data,
+608589,correct,,,,,,1.0,not enough data,
+608593,correct,,,,,,1.0,not enough data,
+608597,correct,,,,,,1.0,not enough data,
+608601,uncertain,,,,,,1.0,not enough data,
+608605,correct,,,,,,1.0,not enough data,
+608609,correct,,,,,,1.0,not enough data,
+608613,correct,,,,,,1.0,not enough data,
+608617,uncertain,,,incorrect,,,2.0,0.25,acs
+608621,uncertain,,,,,,1.0,not enough data,
+608625,correct,,,,,,1.0,not enough data,
+608629,correct,,,,,,1.0,not enough data,
+608633,correct,,,,,,1.0,not enough data,
+608637,uncertain,,,,,,1.0,not enough data,
+608641,correct,,,,,,1.0,not enough data,
+608645,correct,,,,,,1.0,not enough data,
+608649,incorrect,,,,,,1.0,not enough data,
+608653,correct,,,,,,1.0,not enough data,
+608657,correct,,,,,,1.0,not enough data,
+608661,uncertain,,,,,,1.0,not enough data,
+608665,incorrect,,,,,,1.0,not enough data,
+608669,correct,,,correct,,,2.0,1.0,acs
+608673,correct,,,uncertain,,,2.0,0.75,acs
+608677,uncertain,,,incorrect,,,2.0,0.25,acs
+608681,correct,,,uncertain,,,2.0,0.75,acs
+608685,uncertain,,,uncertain,,,2.0,0.5,acs
+608689,uncertain,,,,,,1.0,not enough data,
+608693,uncertain,,,,,,1.0,not enough data,
+608697,correct,,,uncertain,,,2.0,0.75,acs
+608701,incorrect,,,,,,1.0,not enough data,
+608705,incorrect,,,,,,1.0,not enough data,
+608709,incorrect,,,uncertain,,,2.0,0.25,acs
+608713,incorrect,,,,,,1.0,not enough data,
+608761,,,,,,,0.0,not enough data,
+608765,,,,,,,0.0,not enough data,
+608769,,,,,,,0.0,not enough data,
+608773,,,,,,,0.0,not enough data,
+608777,,,,,,,0.0,not enough data,
+608781,,,,,,,0.0,not enough data,
+608785,,,,,,,0.0,not enough data,
+608789,,,,,,,0.0,not enough data,
+608793,,,,,,,0.0,not enough data,
+608797,,,,correct,,,1.0,not enough data,
+608801,,,,,,,0.0,not enough data,
+608805,,,,,,,0.0,not enough data,
+608809,,,,,,,0.0,not enough data,
+608813,,,,,,,0.0,not enough data,
+608817,,,,,,,0.0,not enough data,
+608821,,,,,,,0.0,not enough data,
+608825,,,,,,,0.0,not enough data,
+608829,,,,,,,0.0,not enough data,
+608833,,,,,,,0.0,not enough data,
+608837,,,,,,,0.0,not enough data,
+608841,,,,,,,0.0,not enough data,
+608845,,,,,,,0.0,not enough data,
+608849,,,,,,,0.0,not enough data,
+608853,,,,incorrect,,,1.0,not enough data,
+608857,,,,incorrect,,,1.0,not enough data,
+608861,,,,incorrect,,,1.0,not enough data,
+608865,,,,uncertain,,,1.0,not enough data,
+608869,,,,incorrect,,,1.0,not enough data,
+608873,,,,correct,,,1.0,not enough data,
+608877,,,,correct,,,1.0,not enough data,
+608881,,,,uncertain,,,1.0,not enough data,
+608885,,,,correct,,,1.0,not enough data,
+608889,,,,,,,0.0,not enough data,
+608893,,,,,,,0.0,not enough data,
+608897,,,,correct,,,1.0,not enough data,
+608901,,,,uncertain,,,1.0,not enough data,
+608905,,,,,,,0.0,not enough data,
+608909,,,,,,,0.0,not enough data,
+608913,,,,incorrect,,,1.0,not enough data,
+608917,,,,,,,0.0,not enough data,
+608921,,,,,,,0.0,not enough data,
+608925,,,,,,,0.0,not enough data,
+608929,,,,,,,0.0,not enough data,
+608933,,,,,,,0.0,not enough data,
+608938,,,,,,,0.0,not enough data,
+608945,,,,,,,0.0,not enough data,
+608950,,,,,,,0.0,not enough data,
+608954,,,,,,,0.0,not enough data,
+608958,,,,,,,0.0,not enough data,
+608962,,,,,,,0.0,not enough data,
+608966,,,,,,,0.0,not enough data,
+608970,,,,,,,0.0,not enough data,
+608974,,,,,,,0.0,not enough data,
+608978,,,,,,,0.0,not enough data,
+608982,,,,,,,0.0,not enough data,
+608986,,,,,,,0.0,not enough data,
+608990,,,,,,,0.0,not enough data,
+608994,,,,,,,0.0,not enough data,
+608998,,,,,,,0.0,not enough data,
+609002,,,,,,,0.0,not enough data,
+609006,,,,,,,0.0,not enough data,
+609010,,,,,,,0.0,not enough data,
+609014,,,,,,,0.0,not enough data,
+609018,,,,,,,0.0,not enough data,
+609022,,,,,,,0.0,not enough data,
+609026,,,,,,,0.0,not enough data,
+609030,,,,,,,0.0,not enough data,
+609034,,,,,,,0.0,not enough data,
+609038,,,,,,,0.0,not enough data,
+609042,,,,,,,0.0,not enough data,
+609046,,,,,,,0.0,not enough data,
+609050,,,,,,,0.0,not enough data,
+609054,,,,,,,0.0,not enough data,
+609058,,,,,,,0.0,not enough data,
+609062,,,,,,,0.0,not enough data,
+609066,,,,,,,0.0,not enough data,
+609070,,,,,,,0.0,not enough data,
+609074,,,,,,,0.0,not enough data,
+609078,,,,,,,0.0,not enough data,
+609082,,,,uncertain,,,1.0,not enough data,
+609086,,,,correct,,,1.0,not enough data,
+609090,,,,,,,0.0,not enough data,
+609094,,,,,,,0.0,not enough data,
+609098,,,,,,,0.0,not enough data,
+609102,,,,,,,0.0,not enough data,
+609106,,,,,,,0.0,not enough data,
+609110,,,,,,,0.0,not enough data,
+609114,,,,,,,0.0,not enough data,
+609118,,,,,,,0.0,not enough data,
+609122,,,,,,,0.0,not enough data,
+609126,,,,,,,0.0,not enough data,
+609130,,,,,,,0.0,not enough data,
+609134,,,,correct,,,1.0,not enough data,
+609138,,,,uncertain,,,1.0,not enough data,
+609142,,,,incorrect,,,1.0,not enough data,
+609146,,,,uncertain,,,1.0,not enough data,
+609150,,,,uncertain,,,1.0,not enough data,
+609154,,,,uncertain,,,1.0,not enough data,
+609158,,,,uncertain,,,1.0,not enough data,
+609162,,,,incorrect,,,1.0,not enough data,
+609166,,,,,,,0.0,not enough data,
+609170,,,,correct,,,1.0,not enough data,
+609174,,,,incorrect,,,1.0,not enough data,
+609178,,,,correct,,,1.0,not enough data,
+609182,,,,incorrect,,,1.0,not enough data,
+609186,,,,uncertain,,,1.0,not enough data,
+609190,,,,uncertain,,,1.0,not enough data,
+609194,,,,correct,,,1.0,not enough data,
+609198,,,,incorrect,,,1.0,not enough data,
+609202,,,,correct,,,1.0,not enough data,
+609206,,,,correct,,,1.0,not enough data,
+609210,,,,incorrect,,,1.0,not enough data,
+609214,,,,uncertain,,,1.0,not enough data,
+609218,,,,incorrect,,,1.0,not enough data,
+609222,,,,uncertain,,,1.0,not enough data,
+609226,,,,correct,,,1.0,not enough data,
+609282,,,,,,,0.0,not enough data,
+608204,incorrect,incorrect,uncertain,incorrect,uncertain,uncertain,6.0,0.25,acs
+608208,uncertain,incorrect,correct,incorrect,correct,correct,6.0,0.5833333333333334,acs
+608212,uncertain,incorrect,uncertain,uncertain,uncertain,uncertain,6.0,0.4166666666666667,acs
+608216,correct,correct,correct,correct,uncertain,correct,6.0,0.9166666666666666,acs
+608220,uncertain,correct,correct,uncertain,correct,correct,6.0,0.8333333333333334,ad
+608224,uncertain,uncertain,correct,uncertain,correct,correct,6.0,0.75,acs
+608228,correct,correct,correct,correct,correct,correct,6.0,1.0,acs
+608232,correct,correct,correct,correct,correct,correct,6.0,1.0,acs
+608240,incorrect,incorrect,incorrect,uncertain,uncertain,uncertain,6.0,0.25,acs
+608244,incorrect,incorrect,incorrect,uncertain,uncertain,uncertain,6.0,0.25,acs
+608249,correct,incorrect,incorrect,,correct,correct,5.0,0.6,acs
+608253,incorrect,uncertain,uncertain,,uncertain,uncertain,5.0,0.4,ad
+608717,uncertain,,,correct,,,2.0,0.75,acs
+608721,correct,,,,,,1.0,not enough data,
+608725,incorrect,,,,,,1.0,not enough data,
+608729,correct,,,,,,1.0,not enough data,
+608733,correct,,,,,,1.0,not enough data,
+608737,correct,,,,,,1.0,not enough data,
+608741,uncertain,,,incorrect,,,2.0,0.25,acs
+608745,uncertain,,,,,,1.0,not enough data,
+608749,,,,,,,0.0,not enough data,
+608753,,,,,,,0.0,not enough data,
+608757,,,,,,,0.0,not enough data,
+609230,,,,correct,,,1.0,not enough data,
+609234,,,,correct,,,1.0,not enough data,
+609238,,,,uncertain,,,1.0,not enough data,
+609242,,,,correct,,,1.0,not enough data,
+609246,,,,incorrect,,,1.0,not enough data,
+609250,,,,correct,,,1.0,not enough data,
+609254,,,,uncertain,,,1.0,not enough data,
+609258,,,,uncertain,,,1.0,not enough data,
+609262,,,,correct,,,1.0,not enough data,
+609266,,,,uncertain,,,1.0,not enough data,
+609270,,,,,,,0.0,not enough data,
+609274,,,,,,,0.0,not enough data,
+609278,,,,,,,0.0,not enough data,
