@@ -1,5 +1,5 @@
-Data Used : Lab-Traced Synapse Annotations from neuron skeletons and designated cubes 
-From : CATMAID 
+- Data Used : Lab-Traced Synapse Annotations from neuron skeletons and designated cubes 
+- From : CATMAID 
 
 ### Purpose
 -	With pymaid, this pipeline identifies precise locations of synapse features: T-bar, presynaptic neuron, and postsynaptic neuron coordinates, without requiring the relevant neurons to be skeletonized in CATMAID.
