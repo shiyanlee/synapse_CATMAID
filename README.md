@@ -1,10 +1,13 @@
+Data Used : Lab-Traced Synapse Annotations from neuron skeletons and designated cubes 
+From : CATMAID 
+
 ### Purpose
 -	With pymaid, this pipeline identifies precise locations of synapse features: T-bar, presynaptic neuron, and postsynaptic neuron coordinates, without requiring the relevant neurons to be skeletonized in CATMAID.
 -	It integrates steps of data validation when clustering to ensure connectors (T-bars) and their corresponding partners are accurately represented within a bounding box.
 -	With customizable options to handle irregular dataset distributions, the pipeline prepares compact bounding box datasets to optimise training efficiency while minimising computational overhead.
 
 ### 🚩**What was the problem and why is it important**
-Ground truth annotations of neuronal structures are not only valuable for connectome reconstruction but also critical for training machine learning models in neuron segmentations. However, this is greatly distinctive in the context of synapse detection. Segmenting a neuron is challenging due to its complex trajectory across the tissue layers, while identifying a synapse is complicated by the variable cues at the presynaptic and postsynaptic site required for accurate classification.
+Segmenting a neuron is challenging due to its complex trajectory across the tissue layers, while identifying a synapse is complicated by the variable cues at the presynaptic and postsynaptic site required for accurate classification.
 In high-resolution EM images of the Drosophila brain, synapses are identified by darkly stained active zone proteins known as the T bar, alongside the postsynaptic density (PSD) complex which often appears as a ‘teeth-like’ structure. One of the challenges in developing synapse detection model is to distinguish synapses from other electron-dense organelles and artefacts. Additionally, the extremely thin slices captured with FIB-SEM implicates that the presynaptic and postsynaptic features may be captured at slightly different planes and distances, with variability across synapses. This inconsistency introduces unique perspectives on the synaptic structure, highlighting the inherent 3D complexity that complicates automated detection. The ability to automatically detect synapses not only reduces the labor-intensive effort required to annotate volumetric data but also provides a valuable dataset for uncovering the implications of learning and memory in Drosophila through the quantification of synapses.
 
 ### ⚔️**Our approach and how problems can be overcome.** 
@@ -17,11 +20,11 @@ Using pymaid (a Python-CATMAID interface), this data curation pipeline enables t
 
 ### **📦 The Bounding Boxes**  
 
-In this pipeline, synapses are only considered for training if **all connectors**, **pre-synaptic neurons**, and **post-synaptic neurons** are fully contained within a bounding box. I showed two cases to illustrate the discrepancies and effetc the datset distribution it has on bounding box creation:
-1. Synapses Traced in a Designated Cube:
+In this pipeline, synapses are only considered for training if **all connectors**, **pre-synaptic neurons**, and **post-synaptic neurons** are fully contained within a bounding box. I showed two cases to illustrate the discrepancies and effect the datset distribution it has on bounding box creation:
+**1. Synapses Traced in a Designated Cube:**
 This scenario involves a straightforward approach. The smallest and largest **x**, **y**, and **z** coordinates across all connectors, pre-synaptic neurons, and post-synaptic neurons are identified. These bounds ensure that no annotations fall outside the bounding box, encompassing all relevant data within a single, well-defined cube.  
 
-2. Synapses Traced in a Single Kenyon Cell:
+**2. Synapses Traced in a Single Kenyon Cell:**
 In this case, the connectors are distributed irregularly and non-uniformly. To address this complexity, **DBSCAN Clustering** was applied to group points based on proximity, limiting the spatial spread and forming multiple smaller clusters. For each cluster, compact bounding boxes were created using the cluster points.  
 
 #### Challenges and Solutions:
