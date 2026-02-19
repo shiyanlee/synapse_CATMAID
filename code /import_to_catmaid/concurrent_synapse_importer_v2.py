@@ -25,9 +25,9 @@ TABLE_NAME = "push_log"
 
 # CATMAID Credentials
 CATMAID_URL = "https://neurophyla.mrc-lmb.cam.ac.uk/catmaid/fibsem/#"
-CATMAID_TOKEN = "4fe0c0572331265c61bf6ba4acd77cbed9792276"
-CATMAID_AUTH_NAME = "SYLee"
-CATMAID_AUTH_PASS = "Blue Skies"
+CATMAID_TOKEN = "x"
+CATMAID_AUTH_NAME = "x"
+CATMAID_AUTH_PASS = "x"
 PROJECT_ID = 32
 
 # --- HELPER FUNCTIONS ---
